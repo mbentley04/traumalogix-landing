@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraumaLogix™</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        header {
+            background-color: #b00020;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.25rem;
+        }
+        header p {
+            font-size: 1.25rem;
+            margin: 0;
+        }
+        main {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        main p {
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+        .btn-container {
+            margin-top: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            background-color: #b00020;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TraumaLogix™</h1>
+        <p>Data-Driven Trauma Solutions</p>
+    </header>
+    <main>
+        <p><strong>We build trauma performance and activation tools for the clinicians who live it.</strong></p>
+        <p>TraumaLogix™ delivers AI-powered innovation to improve trauma team accuracy, reduce overtriage, and support your performance improvement mission.</p>
+        <div class="btn-container">
+            <a href="mailto:founder@traumalogix.com" class="btn">Contact Us</a>
+            <a href="#" class="btn">Request Demo</a>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 TraumaLogix™, All Rights Reserved
+    </footer>
+</body>
+</html>
