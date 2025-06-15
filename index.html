@@ -26,13 +26,18 @@
             background-color: #f8f9fa;
             color: #212529;
         }
-        /* Header & Logo */
+        /* Header & Hero Gradient */
         header {
-            background-color: #f8f9fa;
-            padding: 1.5rem 1rem 1rem;
+            background-image: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2rem 1rem 1rem;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
         }
-        /* Logo with drop shadow and animation */
+        /* Logo with subtle shadow and animation */
         .logo {
             width: clamp(240px, 40%, 320px);
             height: auto;
@@ -83,10 +88,11 @@
             padding: 1rem;
             font-size: 0.875rem;
         }
-        /* Responsive Spacing */
+        /* Responsive */
         @media (max-width: 480px) {
             header {
                 padding: 1rem 1rem 0.75rem;
+                min-height: 150px;
             }
             .btn {
                 width: 100%;
