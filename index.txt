@@ -6,24 +6,27 @@
     <title>TraumaLogix™</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             background-color: #f8f9fa;
             color: #212529;
         }
         header {
-            background-color: #b00020;
-            color: white;
-            padding: 2rem 1rem;
+            background-color: #ffffff;
+            padding: 1rem 1rem 0.5rem;
             text-align: center;
+            border-bottom: 1px solid #dee2e6;
         }
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.25rem;
+        .logo {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 0.5rem;
         }
         header p {
             font-size: 1.25rem;
             margin: 0;
+            color: #b00020;
+            font-weight: 500;
         }
         main {
             padding: 2rem 1rem;
@@ -46,7 +49,11 @@
             background-color: #b00020;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #8c001a;
         }
         footer {
             background-color: #343a40;
@@ -59,14 +66,14 @@
 </head>
 <body>
     <header>
-        <h1>TraumaLogix™</h1>
+        <img src="logo.png" alt="TraumaLogix Logo" class="logo">
         <p>Data-Driven Trauma Solutions</p>
     </header>
     <main>
         <p><strong>We build trauma performance and activation tools for the clinicians who live it.</strong></p>
-        <p>TraumaLogix™ delivers AI-powered innovation to improve trauma team accuracy, reduce overtriage, and support your performance improvement mission.</p>
+        <p>TraumaLogix™ delivers AI-powered innovation to improve your performance improvement mission.</p>
         <div class="btn-container">
-            <a href="mailto:founder@traumalogix.com" class="btn">Contact Us</a>
+            <a href="mailto:info@traumalogix.com" class="btn">Contact Us</a>
             <a href="#" class="btn">Request Demo</a>
         </div>
     </main>
