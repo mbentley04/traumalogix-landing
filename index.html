@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TraumaLogix™</title>
+    <!-- SEO Meta -->
+    <meta name="description" content="TraumaLogix™ provides AI-powered trauma performance and activation tools to improve team accuracy, reduce overtriage, and support performance improvement missions for clinicians.">
+    <meta name="keywords" content="Trauma, Performance Improvement, AI, Activation Tools, Healthcare Analytics">
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="TraumaLogix™ - Data-Driven Trauma Solutions">
+    <meta property="og:description" content="AI-powered innovation to enhance trauma team performance and accuracy.">
+    <meta property="og:image" content="https://www.traumalogix.com/og-image.png">
+    <meta property="og:url" content="https://www.traumalogix.com/">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TraumaLogix™">
+    <meta name="twitter:description" content="AI-powered trauma performance and activation tools for clinicians.">
+    <meta name="twitter:image" content="https://www.traumalogix.com/og-image.png">
     <style>
         /* Base Styles */
         body {
@@ -18,11 +32,18 @@
             padding: 1.5rem 1rem 1rem;
             text-align: center;
         }
+        /* Logo with drop shadow and animation */
         .logo {
             width: clamp(240px, 40%, 320px);
             height: auto;
             display: block;
             margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeScale 0.8s ease-out both;
+        }
+        @keyframes fadeScale {
+            0% { opacity: 0; transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
         }
         /* Main Content */
         main {
