@@ -5,34 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TraumaLogix™</title>
     <style>
+        /* Base Styles */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f8f9fa;
             color: #212529;
         }
+        /* Header & Logo */
         header {
             background-color: #f8f9fa;
-            padding: 2.5rem 1rem 2rem;
+            padding: 1.5rem 1rem 1rem;
             text-align: center;
         }
         .logo {
-            max-width: 440px;
-            width: 90%;
+            width: clamp(240px, 40%, 320px);
             height: auto;
-        }
-        main {
-            padding: 2rem 1rem;
-            max-width: 800px;
+            display: block;
             margin: 0 auto;
+        }
+        /* Main Content */
+        main {
+            max-width: 700px;
+            margin: 1rem auto 2rem;
+            padding: 0 1rem;
             text-align: center;
         }
         main p {
-            font-size: 1.25rem;
+            margin: 0.75rem 0;
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
             line-height: 1.6;
         }
+        /* Buttons */
         .btn-container {
-            margin-top: 2rem;
+            margin-top: 1.5rem;
         }
         .btn {
             display: inline-block;
@@ -40,26 +46,37 @@
             padding: 0.75rem 1.5rem;
             font-size: 1rem;
             background-color: #b00020;
-            color: white;
+            color: #fff;
             text-decoration: none;
             border-radius: 8px;
-            transition: background-color 0.3s ease;
+            transition: transform 0.2s ease;
         }
         .btn:hover {
-            background-color: #8c001a;
+            transform: translateY(-2px);
         }
+        /* Footer */
         footer {
             background-color: #343a40;
-            color: white;
+            color: #fff;
             text-align: center;
             padding: 1rem;
             font-size: 0.875rem;
+        }
+        /* Responsive Spacing */
+        @media (max-width: 480px) {
+            header {
+                padding: 1rem 1rem 0.75rem;
+            }
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="TraumaLogix Logo" class="logo">
+        <img src="logo.png" alt="TraumaLogix™ Logo" class="logo">
     </header>
     <main>
         <p><strong>We build trauma performance tools for the clinicians who live it.</strong></p>
