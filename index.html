@@ -1,123 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TraumaLogix™</title>
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="favicon.ico">
-    <!-- SEO Meta -->
-    <meta name="description" content="TraumaLogix™ provides AI-powered trauma performance and activation tools to improve team accuracy, reduce overtriage, and support performance improvement missions for clinicians.">
-    <meta name="keywords" content="Trauma, Performance Improvement, AI, Activation Tools, Healthcare Analytics">
-    <!-- Open Graph / Social Sharing -->
-    <meta property="og:title" content="TraumaLogix™ - Data-Driven Trauma Solutions">
-    <meta property="og:description" content="AI-powered innovation to enhance trauma team performance and accuracy.">
-    <meta property="og:image" content="https://www.traumalogix.com/og-image.png">
-    <meta property="og:url" content="https://www.traumalogix.com/">
-    <meta property="og:type" content="website">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TraumaLogix™">
-    <meta name="twitter:description" content="AI-powered trauma performance and activation tools for clinicians.">
-    <meta name="twitter:image" content="https://www.traumalogix.com/og-image.png">
-    <style>
-        /* Base Styles */
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa;
-            color: #212529;
-        }
-        /* Header & Hero Gradient */
-        header {
-            background-image: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 2rem 1rem 1rem;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 200px;
-        }
-        /* Logo with subtle shadow and animation */
-        .logo {
-            width: clamp(240px, 40%, 320px);
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            animation: fadeScale 0.8s ease-out both;
-        }
-        @keyframes fadeScale {
-            0% { opacity: 0; transform: scale(0.9); }
-            100% { opacity: 1; transform: scale(1); }
-        }
-        /* Main Content */
-        main {
-            max-width: 700px;
-            margin: 1rem auto 2rem;
-            padding: 0 1rem;
-            text-align: center;
-        }
-        main p {
-            margin: 0.75rem 0;
-            font-size: clamp(1rem, 2.5vw, 1.25rem);
-            line-height: 1.6;
-        }
-        /* Buttons */
-        .btn-container {
-            margin-top: 1.5rem;
-        }
-        .btn {
-            display: inline-block;
-            margin: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            font-size: 1rem;
-            background-color: #b00020;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: transform 0.2s ease;
-        }
-        .btn:hover {
-            transform: translateY(-2px);
-        }
-        /* Footer */
-        footer {
-            background-color: #343a40;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            font-size: 0.875rem;
-        }
-        /* Responsive */
-        @media (max-width: 480px) {
-            header {
-                padding: 1rem 1rem 0.75rem;
-                min-height: 150px;
-            }
-            .btn {
-                width: 100%;
-                max-width: 300px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TraumaLogix™</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon.ico">
+
+  <!-- SEO Meta -->
+  <meta name="description" content="TraumaLogix™ develops modular, logic-based tools to support complex decision-making in high-risk environments.">
+  <meta name="keywords" content="Decision Support, Automation, Modular Tools, Operational Analytics, Logic Systems">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TraumaLogix™ - Decision Support Solutions">
+  <meta property="og:description" content="Modular AI-powered tools for structured logic, risk scoring, and performance automation.">
+  <meta property="og:image" content="https://www.traumalogix.com/og-image.png">
+  <meta property="og:url" content="https://www.traumalogix.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TraumaLogix™">
+  <meta name="twitter:description" content="Neutral, modular tools to enhance performance in complex environments.">
+  <meta name="twitter:image" content="https://www.traumalogix.com/og-image.png">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+
+    header {
+      background-image: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+
+    .logo {
+      width: clamp(240px, 40%, 320px);
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      animation: fadeScale 0.8s ease-out both;
+    }
+
+    @keyframes fadeScale {
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    main {
+      max-width: 700px;
+      margin: 1rem auto 2rem;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    main p {
+      margin: 0.75rem 0;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      line-height: 1.6;
+    }
+
+    .btn-container {
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #b00020;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1rem 1rem 0.75rem;
+        min-height: 150px;
+      }
+      .btn {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="TraumaLogix™ Logo" class="logo">
-    </header>
-    <main>
-        <p><strong>We build trauma performance tools for the clinicians who live it.</strong></p>
-        <p>TraumaLogix™ delivers AI-powered innovation to improve your performance improvement mission.</p>
-        <div class="btn-container">
-            <a href="mailto:info@traumalogix.com" class="btn">Contact Us</a>
-            <a href="#" class="btn">Request Demo</a>
-        </div>
-    </main>
-    <footer>
-        © 2025 TraumaLogix™, All Rights Reserved
-    </footer>
+  <header>
+    <img src="logo.png" alt="TraumaLogix™ Logo" class="logo">
+  </header>
+  <main>
+    <p><strong>Modular tools for high-risk, complex decision environments.</strong></p>
+    <p>TraumaLogix™ builds structured, logic-driven platforms for smarter outcomes and operational clarity — without reliance on any specific industry or workflow.</p>
+    <div class="btn-container">
+      <a href="mailto:info@traumalogix.com" class="btn">Contact Us</a>
+    </div>
+  </main>
+  <footer>
+    © 2025 TraumaLogix™ — All Rights Reserved<br>
+    TraumaLogix is an independent development company. We are not affiliated with any hospital, healthcare provider, or clinical entity.
+  </footer>
 </body>
 </html>
